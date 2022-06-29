@@ -7,10 +7,13 @@
     padding: 0;
 }
 
+html {
+    position: relative;
+}
+
 body {
     min-height: 100vh;
     overflow-x: hidden;
-    position: relative;
     font-family: Roboto Mono,monospace;
     box-sizing: border-box;
 }
@@ -29,6 +32,10 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.spacer {
+    padding: 15px 0;
 }
 
 h1 {
@@ -104,11 +111,13 @@ input {
 .main-footer {
     padding: 20px;
     background-color: #dfdfe2;
+    font-family: Lato,sans-serif;
+    line-height: 1.6;
 
     /* set the footer at the bottom */
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
 }
 
 .notice {
@@ -133,4 +142,27 @@ input {
     background-color: #31708f;
     border-color: #31708f;
     color: #d9edf7;
+}
+.footer-container {
+    font-size: 16px;
+    margin: 0 10%;
+    overflow-x: hidden;
+    padding: 40px 15px;
+}
+.footer-container .col-header {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 15px 15px;
+    text-align: center;
+}
+.footer-bottom .our-nonprofit a {
+    padding: 5px;
+    color: #2a2a40;
+    text-decoration: none;
+}
+.footer-bottom .our-nonprofit a:hover {
+    text-decoration: underline;
 }
