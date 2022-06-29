@@ -46,8 +46,52 @@ main {
     margin: auto;
 }
 
+.site-logo img {
+    display: block;
+    height: 24px;
+    margin: 7px 0;
+    width: auto;
+}
+
 .main-header {
     background-color: #0a0a23; /* #000000 - #FFFFFF */
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header > * {
+    display: inline-block;
+}
+
+.search form {
+    font-size: 1rem;
+}
+
+input {
+    font-size: inherit;
+    color: #FFF;
+    background-color: darkslategray;
+    border-color: darkslategray;
+    display: inline-block;
+    font-size: 18px;
+    height: 26px;
+    margin-top: 6px;
+    padding: 0 10px 0 10px;
+}
+
+.navigation {
+    margin-top: 5px;
+}
+
+.main-menu {
+    padding: 2px 14px;
+    border: 1px solid #FFFFFF;
+    color: #FFF;
+    text-align: center;
+    font-family: lato,sans-serif;
+    font-size: 18px;
+    margin-right: 10px
 }
 
 .main-content p {
