@@ -1,1 +1,16 @@
 /* Base styles */
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.main-header {
+    background-color: #0a0a23; /* #000000 - #FFFFFF */
+}
