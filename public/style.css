@@ -9,8 +9,19 @@
 
 body {
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .main-header {
     background-color: #0a0a23; /* #000000 - #FFFFFF */
+}
+
+.main-footer {
+    padding: 20px;
+    background-color: #dfdfe2;
+
+    /* set the footer at the bottom */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
