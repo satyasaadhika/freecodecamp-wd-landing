@@ -10,18 +10,51 @@
 body {
     min-height: 100vh;
     overflow-x: hidden;
+    position: relative;
+    font-family: Roboto Mono,monospace;
+    box-sizing: border-box;
 }
 
 .container {
     margin: 0 5%;
 }
 
+.width-two-third {
+    width: 66.6667%;
+}
+
+.margin-one-sixth {
+    margin-left: 16.6667%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: .6rem 0;
+}
+
 main {
     min-height: 100vh;
+    padding: 60px 10px 0 10px;
+}
+
+.screens-logo {
+    width: 120px;
+    margin: auto;
 }
 
 .main-header {
     background-color: #0a0a23; /* #000000 - #FFFFFF */
+}
+
+.main-content p {
+    line-height: 1.5rem;
+    font-size: 1.17rem;
+    font-family: Lato,sans-serif;
+    margin: 0 0 1.2rem;
 }
 
 .main-footer {
@@ -32,4 +65,28 @@ main {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.notice {
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.blue-copy {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.blue-copy p, .blue-copy a {
+    color: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.blue-copy a:hover {
+    background-color: #31708f;
+    border-color: #31708f;
+    color: #d9edf7;
 }
