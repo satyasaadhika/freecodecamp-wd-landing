@@ -67,7 +67,7 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-@media {
+@media (max-width:400px){
     .main-menu{
         display: none;
     }
