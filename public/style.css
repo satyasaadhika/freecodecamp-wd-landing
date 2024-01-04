@@ -49,7 +49,7 @@ main {
 }
 
 .screens-logo {
-    width: 120px;
+    width: 20%;
     margin: auto;
 }
 
@@ -67,17 +67,7 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-@media (max-width:400px){
-    .main-menu{
-        display: none;
-    }
-    .site-logo{
-        margin: auto;
-    }
-    .search {
-        margin: auto;
-    }
-}
+
 
 .main-header > * {
     display: inline-block;
@@ -177,4 +167,27 @@ input {
 }
 .footer-bottom .our-nonprofit a:hover {
     text-decoration: underline;
+}
+@media (max-width:500px){
+    .search form{
+        display: none;
+    }
+    .main-menu{
+        display: none;
+    }
+    .text-center {
+       font-size: 1.85rem;
+    }
+    .width-two-third {
+        width: 100%;
+    } 
+    .margin-one-sixth {
+        margin-left: 0;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+    .footer-bottom{
+        font-size: 1rem;
+    }
 }
